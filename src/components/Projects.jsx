@@ -2,9 +2,31 @@ import { useState, useEffect, useRef } from 'react';
 import ScrollReveal from './ScrollReveal';
 
 import { PROFILE_DATA } from '../constants/profileData';
+import projectCivic from '../assets/project-civic.png';
+import projectData from '../assets/project-data.png';
+import projectWeb from '../assets/project-web.png';
 
 const GITHUB_USERNAME = PROFILE_DATA.githubUsername;
 const FEATURED_TOPIC = PROFILE_DATA.featuredTopic;
+
+const PROJECT_IMAGES = {
+  // Civic
+  'Civic-Issue-Tracker': projectCivic,
+  'Civic-Issues-Reporting-Portal': projectCivic,
+  
+  // Travel
+  'Traveloop': projectWeb,
+  'Travel-App': projectWeb,
+  
+  // ProduX / Data
+  'ProduX-': projectData,
+  'AI-Based-Learning-Monitor': projectData,
+  'Face-Recognition-Attendance': projectData,
+  
+  // Web / Generic
+  'Internship-Cell-Web-Portal': projectWeb,
+  'Hotspot-Base-Attendance-System': projectWeb,
+};
 
 function ProjectCard({ project, index }) {
   const cardRef = useRef(null);
@@ -26,8 +48,16 @@ function ProjectCard({ project, index }) {
     if (cardRef.current) cardRef.current.style.transform = '';
   };
 
-  // Generate a high-quality OpenGraph image from GitHub
-  const imageUrl = `https://opengraph.githubassets.com/1/${GITHUB_USERNAME}/${project.name}`;
+  // Get mapped image or fallback to GitHub OpenGraph
+  const localImage = PROJECT_IMAGES[project.name];
+  const [imgSrc, setImgSrc] = useState(localImage || `https://opengraph.githubassets.com/1/${GITHUB_USERNAME}/${project.name}`);
+
+  const handleImageError = () => {
+    // If the image fails to load, fallback to projectWeb as a default placeholder
+    if (imgSrc !== projectWeb) {
+      setImgSrc(projectWeb);
+    }
+  };
 
   return (
     <ScrollReveal delay={index * 0.15}>
@@ -38,7 +68,12 @@ function ProjectCard({ project, index }) {
         onMouseLeave={handleMouseLeave}
       >
         <div className="project-card__image-container">
-          <img src={imageUrl} alt={project.name} className="project-card__image" />
+          <img 
+            src={imgSrc} 
+            alt={project.name} 
+            className="project-card__image" 
+            onError={handleImageError}
+          />
         </div>
         <div className="project-card__content">
           <span className="project-card__category">{project.language || 'Project'}</span>
