@@ -73,9 +73,13 @@ export default function Hero({ onResumeClick }) {
         <div className="hero__content">
           <p className="hero__greeting">{greeting || '\u00A0'}</p>
 
-          <p className="hero__roles">
-            🧠 AI/ML Specialist &nbsp;·&nbsp; 💻 Full Stack Developer &nbsp;·&nbsp; 📊 Data Scientist
-          </p>
+          <div className="hero__roles">
+            <span>🧠 AI/ML Specialist</span>
+            <span className="dot-separator">·</span>
+            <span>💻 Full Stack Developer</span>
+            <span className="dot-separator">·</span>
+            <span>📊 Data Scientist</span>
+          </div>
 
           <p className="hero__desc">
             Building intelligent, scalable web applications powered by data-driven insights.

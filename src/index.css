@@ -375,8 +375,11 @@ button {
 /* ─── Mobile Navbar ─── */
 @media (max-width: 768px) {
   .navbar__edition-strip {
-    padding: 0.3rem 1rem;
-    font-size: 0.54rem;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    font-size: 0.5rem;
   }
 
   .navbar__inner {
@@ -645,6 +648,17 @@ button {
   font-style: italic;
   color: var(--fg-secondary);
   line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.hero__roles .dot-separator {
+  color: var(--accent-red);
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-weight: 700;
 }
 
 /* Justified body text */
@@ -2128,12 +2142,15 @@ body.resume-open { overflow: hidden; }
 
   /* Skills — 1 column */
   .skills__grid { grid-template-columns: 1fr; }
+  .skill-card { padding: 1.5rem 1.25rem; }
 
   /* Projects — 1 column */
   .projects__grid { grid-template-columns: 1fr; }
+  .project-card__content { padding: 1.25rem; }
 
   /* Achievements — 1 column */
   .achievements__grid { grid-template-columns: 1fr; }
+  .achievement-card { padding: 1.5rem 1.25rem; }
 
   /* About */
   .about__highlights { grid-template-columns: 1fr; }
