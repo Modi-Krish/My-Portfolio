@@ -937,6 +937,7 @@ button {
   padding: 2rem 1.75rem;
   border: none; /* gap provides all separation */
   background: var(--bg-primary);
+  box-shadow: inset 4px 0 0 0 var(--accent-red); /* permanent red left accent */
   transition: background var(--transition-fast), box-shadow var(--transition-fast), transform var(--transition-fast);
   position: relative;
   cursor: default;
@@ -947,7 +948,6 @@ button {
 
 .skill-card:hover {
   background: var(--neutral-100);
-  box-shadow: inset 4px 0 0 0 var(--accent-red); /* red left accent on hover */
   z-index: 1;
 }
 
@@ -1040,7 +1040,8 @@ button {
 .project-card {
   background: var(--bg-card);
   border: none; /* gap provides all separation */
-  transition: box-shadow var(--transition-fast), transform var(--transition-fast);
+  box-shadow: inset 4px 0 0 0 var(--accent-red); /* permanent red left accent */
+  transition: background var(--transition-fast), box-shadow var(--transition-fast), transform var(--transition-fast);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -1050,7 +1051,7 @@ button {
 }
 
 .project-card:hover {
-  box-shadow: inset 4px 0 0 0 var(--accent-red);
+  background: var(--neutral-100);
   z-index: 1;
 }
 
