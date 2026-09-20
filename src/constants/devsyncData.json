@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:30:20.123Z",
+  "updatedAt": "2026-09-20T18:48:26.952Z",
   "projects": [
     {
       "name": "Internship-Application-Portal",
@@ -129,33 +129,9 @@
   ],
   "linkedinPosts": [
     {
-      "content": "Just hit 1000 stars on my open source project! Thank you to everyone who contributed. 🎉 #opensource",
-      "url": "https://linkedin.com",
-      "publishedAt": "2026-09-17T18:30:18.349Z",
-      "likes": 1044
-    },
-    {
-      "content": "Automating my developer workflow with GitHub webhooks and Upstash QStash. The architecture is incredibly robust! 💻✨",
-      "url": "https://linkedin.com",
-      "publishedAt": "2026-09-19T18:30:18.349Z",
-      "likes": 224
-    },
-    {
-      "content": "Thoughts on the new React Server Components? I've been experimenting with them and the performance gains are massive. ⚛️",
-      "url": "https://linkedin.com",
-      "publishedAt": "2026-09-18T18:30:18.349Z",
-      "likes": 135
-    },
-    {
-      "content": "Just published my new portfolio built with Next.js, Tailwind, and Google Gemini! 🚀 #webdev #ai",
-      "url": "https://linkedin.com",
-      "publishedAt": "2026-09-20T16:30:18.349Z",
-      "likes": 46
-    },
-    {
-      "content": "Always keep learning. Finished a deep dive into advanced MongoDB aggregation pipelines today. 🗄️",
-      "url": "https://linkedin.com",
-      "publishedAt": "2026-09-16T18:30:18.349Z",
+      "content": "☁️ Successfully Completed the Google Cloud Technical Series – AI Agent! 🎉\n\nI'm excited to share that I've successfully completed the Google Cloud Technical Series – AI Agent.\n\nThis learning journey helped me gain a deeper understanding of how AI agents can be designed, built, and integrated using modern cloud technologies. Along the way, I explored concepts such as:\n\n🤖 AI Agents and Agentic AI fundamentals\n☁️ Google Cloud AI ecosystem and services\n🧠 Prompt engineering and LLM-powered applications\n🔗 AI workflows, automation, and real-world use cases\n⚡ Building intelligent, scalable AI-powered solutions\n\nOne of my biggest takeaways was understanding how AI agents are transforming the way we build applications by enabling them to reason, automate tasks, and interact more intelligently with users.\n\nA big thank you to Google Cloud for providing this learning opportunity. Looking forward to applying these concepts in my upcoming projects and continuing to explore the world of AI.\n\nThe learning never stops—on to the next challenge! 🚀\n\nhashtag#GoogleCloud hashtag#GoogleCloudSkillsBoost hashtag#AIAgents hashtag#AgenticAI hashtag#GenerativeAI hashtag#ArtificialIntelligence hashtag#CloudComputing hashtag#LLM hashtag#PromptEngineering hashtag#StudentDeveloper hashtag#ContinuousLearning hashtag#TechJourney hashtag#BuildInPublic",
+      "url": "https://www.linkedin.com/in/modikrish0311/",
+      "publishedAt": "2026-09-20T18:47:35.740Z",
       "likes": 24
     }
   ]
