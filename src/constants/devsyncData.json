@@ -1,5 +1,162 @@
 {
-  "updatedAt": "2026-09-20T22:57:00.000Z",
-  "projects": [],
-  "linkedinPosts": []
+  "updatedAt": "2026-09-20T18:30:20.123Z",
+  "projects": [
+    {
+      "name": "Internship-Application-Portal",
+      "title": "Internship-Application-Portal",
+      "description": "A premium, full-stack internship and career services platform designed to connect talented students with world-class opportunities. Built with Next.js 15, Supabase, and Tailwind CSS.",
+      "url": "https://github.com/Modi-Krish/Internship-Application-Portal",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "PLpgSQL",
+        "CSS"
+      ],
+      "score": 10
+    },
+    {
+      "name": "Privacy-Display",
+      "title": "Privacy-Display",
+      "description": "Real-Time AI Privacy Display — A privacy-focused AI assistant built with Electron, React, FastAPI, and local ML models.",
+      "url": "https://github.com/Modi-Krish/Privacy-Display",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "score": 10
+    },
+    {
+      "name": "ProduX-",
+      "title": "ProduX-",
+      "description": "ProduX is not just a task manager; it's a social productivity ecosystem designed to turn your work into an adventure. Built with a bold Playful Geometric aesthetic, ProduX combines professional task management with RPG-style gamification, real-time social interactions, and active focus protection.",
+      "url": "https://github.com/Modi-Krish/ProduX-",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "Java",
+        "HTML"
+      ],
+      "score": 10
+    },
+    {
+      "name": "Frugal_Assement",
+      "title": "Frugal_Assement",
+      "description": "Interactive submission website for the Frugal Testing Graphic Designer assignment, showcasing my responses, portfolio, projects, design work, and technical skills in a modern responsive interface.",
+      "url": "https://github.com/Modi-Krish/Frugal_Assement",
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "score": 10
+    },
+    {
+      "name": "Erp-System",
+      "title": "Erp-System",
+      "description": "A full-stack, enterprise-grade web application designed for wholesale and distribution companies. This system centralizes customer relationship management (CRM), product catalogs, real-time inventory tracking, and transactional sales challan workflows.",
+      "url": "https://github.com/Modi-Krish/Erp-System",
+      "technologies": [
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Dockerfile"
+      ],
+      "score": 10
+    },
+    {
+      "name": "Civic-Issue-Tracker-",
+      "title": "Civic-Issue-Tracker-",
+      "description": "The Civic Issue Tracker bridges the gap between citizens, field workers, and municipal departments. It is a centralized, role-based platform designed to digitise and streamline the management of urban civic infrastructure issues like potholes, street-light failures, garbage accumulation, and drainage blockages.",
+      "url": "https://github.com/Modi-Krish/Civic-Issue-Tracker-",
+      "technologies": [
+        "TypeScript",
+        "PLpgSQL",
+        "JavaScript",
+        "CSS"
+      ],
+      "score": 10
+    },
+    {
+      "name": "DealFlow360--",
+      "title": "DealFlow360--",
+      "description": "DealFlow360 — Intelligent B2B Sales Operations Platform. Streamlines quotations, approvals, fulfillment, billing, and customer negotiation. Built with real-world business logic, automation, and deal management.",
+      "url": "https://github.com/Modi-Krish/DealFlow360--",
+      "technologies": [
+        "TypeScript",
+        "Python",
+        "JavaScript",
+        "CSS"
+      ],
+      "score": 10
+    },
+    {
+      "name": "GeniusGuard",
+      "title": "GeniusGuard",
+      "description": "GeniusGuard: A Guardrailed AI Support Agent & Evaluation Harness for AppleSupport on Twitter",
+      "url": "https://github.com/Modi-Krish/GeniusGuard",
+      "technologies": [
+        "Python"
+      ],
+      "score": 10
+    },
+    {
+      "name": "My-Portfolio",
+      "title": "My-Portfolio",
+      "description": "A personal portfolio website showcasing my projects, skills, certifications, and achievements. Built using HTML, CSS, and JavaScript with a clean, responsive design. Highlights include my AI/ML projects and event participation. Hosted live using GitHub Pages.",
+      "url": "https://github.com/Modi-Krish/My-Portfolio",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "score": 10
+    },
+    {
+      "name": "SIH2026",
+      "title": "SIH2026",
+      "description": "A comprehensive Smart Attendance & Personalized Learning System featuring IoT integration, a NestJS backend, Next.js web app, and Python AI services. Built for SIH 2026.",
+      "url": "https://github.com/Modi-Krish/SIH2026",
+      "technologies": [
+        "TypeScript",
+        "Python",
+        "CSS",
+        "JavaScript"
+      ],
+      "score": 10
+    }
+  ],
+  "linkedinPosts": [
+    {
+      "content": "Just hit 1000 stars on my open source project! Thank you to everyone who contributed. 🎉 #opensource",
+      "url": "https://linkedin.com",
+      "publishedAt": "2026-09-17T18:30:18.349Z",
+      "likes": 1044
+    },
+    {
+      "content": "Automating my developer workflow with GitHub webhooks and Upstash QStash. The architecture is incredibly robust! 💻✨",
+      "url": "https://linkedin.com",
+      "publishedAt": "2026-09-19T18:30:18.349Z",
+      "likes": 224
+    },
+    {
+      "content": "Thoughts on the new React Server Components? I've been experimenting with them and the performance gains are massive. ⚛️",
+      "url": "https://linkedin.com",
+      "publishedAt": "2026-09-18T18:30:18.349Z",
+      "likes": 135
+    },
+    {
+      "content": "Just published my new portfolio built with Next.js, Tailwind, and Google Gemini! 🚀 #webdev #ai",
+      "url": "https://linkedin.com",
+      "publishedAt": "2026-09-20T16:30:18.349Z",
+      "likes": 46
+    },
+    {
+      "content": "Always keep learning. Finished a deep dive into advanced MongoDB aggregation pipelines today. 🗄️",
+      "url": "https://linkedin.com",
+      "publishedAt": "2026-09-16T18:30:18.349Z",
+      "likes": 24
+    }
+  ]
 }
